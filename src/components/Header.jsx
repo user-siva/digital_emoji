@@ -20,6 +20,9 @@ const Header = () => {
                         <a href="#hero" className="no-underline text-nav-text hover:underline">Home</a>
                     </li>
                     <li className="ml-3">
+                        <a href="#" className="no-underline text-nav-text hover:underline">Projects</a>
+                    </li>
+                    <li className="ml-3">
                         <a href="#about" className="no-underline text-nav-text hover:underline">About</a>
                     </li>
                     <li className="ml-3">
