@@ -32,6 +32,7 @@ function Contact() {
             
             
         </div>
+        
         <Project_Enquiry/>
         </>
     );
