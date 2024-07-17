@@ -134,42 +134,43 @@ const serviceCategories = [
 
 const Services = () => {
     return (
-        <div className="container my-10" id="services">
-            <h1 className="text-center text-white font-bold text-3xl mb-14 mt-5 sm:mt-0">
-                <span className="text-title-left">Our</span>
-                <span className="text-title-right"> Services</span>
-            </h1>
+        <div className="container my-10 flex align-center" id="services">
+    <h1 className="text-center text-white font-bold text-3xl mb-14 mt-5 sm:mt-0">
+        <span className="text-title-left">Our</span>
+        <span className="text-title-right"> Services</span>
+    </h1>
 
-            {/* Cards section */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-6">
-                {serviceCategories.map(({ id, title, img, subtitle, services }) => {
-                    return (
-                        <div
-                            key={id}
-                            className="text-white shadow-md rounded-lg overflow-hidden relative group transform transition-transform duration-300 hover:scale-105"
-                        >
-                            <div className="max-w-sm bg-white h-[32rem] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                <div className="p-5">
-                                    <img className="rounded-t-lg" src={img} alt={title} />
+    {/* Cards section */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
+        {serviceCategories.map(({ id, title, img, subtitle, services }) => {
+            return (
+                <div
+                    key={id}
+                    className="text-white shadow-md rounded-lg overflow-hidden relative group transform transition-transform duration-300 hover:scale-105"
+                >
+                    <div className="max-w-sm bg-white h-[32rem] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                        <div className="p-5">
+                            <img className="rounded-t-lg" src={img} alt={title} />
 
-                                    <a href="#" className="mb-9">
-                                        <h5 className="text-2xl font-bold tracking-tight mt-3 text-gray-900 dark:text-white">
-                                            {title}
-                                        </h5>
-                                        <h6 className="font-bold mb-3">{subtitle}</h6>
-                                    </a>
-                                    <ul className="list-disc list-inside mb-3 text-gray-700 dark:text-gray-400">
-                                        {services.map((service, index) => (
-                                            <li key={index}>{service}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
+                            <a href="#" className="mb-9">
+                                <h5 className="text-2xl font-bold tracking-tight mt-3 text-gray-900 dark:text-white">
+                                    {title}
+                                </h5>
+                                <h6 className="font-bold mb-3">{subtitle}</h6>
+                            </a>
+                            <ul className="list-disc list-inside mb-3 text-gray-700 dark:text-gray-400">
+                                {services.map((service, index) => (
+                                    <li key={index}>{service}</li>
+                                ))}
+                            </ul>
                         </div>
-                    );
-                })}
-            </div>
-        </div>
+                    </div>
+                </div>
+            );
+        })}
+    </div>
+</div>
+
     );
 };
 
