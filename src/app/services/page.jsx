@@ -134,7 +134,8 @@ const serviceCategories = [
 
 const Services = () => {
     return (
-        <div className="container my-10 align-center" id="services">
+        
+    <div className="container mx-auto p-4 min-h-screen flex flex-col justify-center items-center">
     <h1 className="text-center text-white font-bold text-3xl mb-14 mt-5 sm:mt-0">
         <span style={{ color: '#263B7E' }}>Our</span>
         <span style={{ color: '#5C1F5B' }}> Services</span>
@@ -142,6 +143,7 @@ const Services = () => {
     </h1>
 
     {/* Cards section */}
+    
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
         {serviceCategories.map(({ id, title, img, subtitle, services }) => {
             return (
