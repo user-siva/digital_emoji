@@ -12,8 +12,8 @@ function About() {
                 </div>
                 <div className="flex justify-around">
                     <h1 className="font-semibold mt-12 not-italic text-3xl">
-                        <span className="text-title-left">Our</span>
-                        <span className="text-title-right"> Experts</span>
+                        <span style={{ color: '#263B7E' }}>Our</span>
+                        <span style={{ color: '#5C1F5B' }}> Experts</span>
                     </h1>
 
                     <div className="grid grid-cols-2">
@@ -60,8 +60,8 @@ function About() {
             <section className=" text-center flex flex-col">
                 <div className="flex justify-around">
                     <h1 className="font-semibold mt-12 not-italic text-3xl">
-                        <span className="text-title-left">Why</span>
-                        <span className="text-title-right"> Us</span>
+                        <span style={{ color: '#263B7E' }}>Why</span>
+                        <span style={{ color: '#5C1F5B' }}> Us</span>
                     </h1>
 
                     <div className="grid grid-cols-2">

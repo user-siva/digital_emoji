@@ -1,5 +1,6 @@
 // components/Header.jsx
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Header = () => {
     return (
@@ -17,19 +18,19 @@ const Header = () => {
             <nav className="mr-6">
                 <ul className="flex list-none">
                     <li className="ml-3">
-                        <a href="#hero" className="no-underline text-nav-text hover:underline">Home</a>
+                        <Link href="/" className="no-underline text-nav-text hover:underline">Home</Link>
                     </li>
                     <li className="ml-3">
-                        <a href="#" className="no-underline text-nav-text hover:underline">Projects</a>
+                        <Link href="/project" className="no-underline text-nav-text hover:underline">Projects</Link>
                     </li>
                     <li className="ml-3">
-                        <a href="#about" className="no-underline text-nav-text hover:underline">About</a>
+                        <Link href="about" className="no-underline text-nav-text hover:underline">About</Link>
                     </li>
                     <li className="ml-3">
-                        <a href="#services" className="no-underline text-nav-text hover:underline">Services</a>
+                        <Link href="services" className="no-underline text-nav-text hover:underline">Services</Link>
                     </li>
                     <li className="ml-3">
-                        <a href="#contact" className="no-underline text-nav-text hover:underline">Contact</a>
+                        <Link href="contact" className="no-underline text-nav-text hover:underline">Contact</Link>
                     </li>
                 </ul>
             </nav>

@@ -134,10 +134,11 @@ const serviceCategories = [
 
 const Services = () => {
     return (
-        <div className="container my-10 flex align-center" id="services">
+        <div className="container my-10 align-center" id="services">
     <h1 className="text-center text-white font-bold text-3xl mb-14 mt-5 sm:mt-0">
-        <span className="text-title-left">Our</span>
-        <span className="text-title-right"> Services</span>
+        <span style={{ color: '#263B7E' }}>Our</span>
+        <span style={{ color: '#5C1F5B' }}> Services</span>
+
     </h1>
 
     {/* Cards section */}

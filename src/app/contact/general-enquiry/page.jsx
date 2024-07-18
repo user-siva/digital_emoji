@@ -20,17 +20,7 @@ export default function Project_Enquiry() {
       <p className="text-lg font-bold mb-4 text-center">Got something in mind? We'd love to help. <br></br>What are you looking for?</p>
       <p className="text-lg mb-4 text-center">Looking for UX/UI research or product branding?<br></br> Post your query now, and we'll get in touch with you soon!</p>
       
-        <ul className="flex flex-wrap justify-center text-sm font-medium text-center bg-link">
-          <li className="me-2">
-            <button href="#" className="inline-block px-4 py-3 text-white bg-blue-600 rounded-lg active" aria-current="page">Project</button>
-          </li>
-          <li className="me-2">
-            <button href="#" className="inline-block px-4 py-3 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">Jobs/Careers</button>
-          </li>
-          <li className="me-2">
-            <button href="#" className="inline-block px-4 py-3 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-white">General</button>
-          </li>
-        </ul>
+        
       <div className="enquiry mb-8">
       
       <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">

@@ -5,8 +5,8 @@ function Hero() {
         <div className="p-10 text-center flex flex-col" id='hero'>
             <section className="text-center p-2">
                 <h1 className="font-bold mb-1 not-italic text-5xl">
-                    <span className="text-title-left">Navigating Digital Challenges</span>
-                    <span className="text-title-right"> with Our Creativity</span>
+                    <span style={{ color: '#263B7E' }}>Navigating Digital Challenges</span>
+                    <span style={{ color: '#5C1F5B' }}> with Our Creativity</span>
                 </h1>
                 <div className="flex justify-center gap-10 mt-2">
                     <div><b>100+</b> <br /> Happy Clients</div>
