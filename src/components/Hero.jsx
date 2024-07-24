@@ -1,6 +1,34 @@
+"use client"
 import Image from "next/image";
+import { useState } from "react";
+
+function ImageFrame({ src, index, hovered, setHovered }) {
+    return (
+        <div
+            key={index}
+            className="relative group overflow-hidden w-72 h-72 rounded-full bg-black flex items-center justify-center"
+            onMouseEnter={() => setHovered(index)}
+            onMouseLeave={() => setHovered(null)}
+        >
+            <Image
+                src={src}
+                height={288}  // Adjusted to match the 72x72 size (in pixels)
+                width={288}   // Adjusted to match the 72x72 size (in pixels)
+                alt={`Image ${index + 1}`}
+                className={`transition-transform duration-500 rounded-full ${hovered === index ? 'transform translate-y-full' : ''}`}
+            />
+            <button
+                className={`absolute bg-blue-500 text-white px-4 py-2 rounded opacity-0 transition-opacity duration-500 ${hovered === index ? 'opacity-100' : ''}`}
+            >
+                Learn More
+            </button>
+        </div>
+    );
+}
 
 function Hero() {
+    const [hovered, setHovered] = useState(null);
+
     return (
         <div className="p-10 text-center flex flex-col" id='hero'>
             <section className="text-center p-2">
@@ -27,7 +55,20 @@ function Hero() {
                 </figure>
             </section>
 
+            <div className="flex justify-center mt-8">
+                <button className="px-4 py-2 w-fit bg-blue-500 font-bold text-white rounded hover:bg-blue-700">
+                    Talk To Our Architect
+                </button>
+            </div>
 
+            <div className="flex flex-row justify-center gap-5 mt-10">
+                {["/images/dev.png", "/images/dev.png", "/images/dev.png", "/images/dev.png"].map((src, index) => (
+                    <div key={index} className="flex flex-col items-center">
+                        <ImageFrame src={src} index={index} hovered={hovered} setHovered={setHovered} />
+                        <p className="mt-2 font-bold">IT Leader</p>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
