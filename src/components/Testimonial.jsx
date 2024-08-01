@@ -7,7 +7,7 @@ import { Pagination,Autoplay } from 'swiper/modules';
 export default function TestimonialSlider() {
   return (
     <div className="max-w-4xl mx-auto p-4">
-      <h1 className="font-bold mb-8 mt-8 not-italic text-3xl ">
+      <h1 className="font-bold mb-1 not-italic text-5xl mt-8 mb-8">
           Testimonials
       </h1>
       <Swiper

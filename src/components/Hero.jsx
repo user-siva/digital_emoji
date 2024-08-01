@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import TestimonialSlider from "./Testimonial";
+import Strategies from "./Strategies";
 
 function ImageFrame({ src, index, hovered, setHovered }) {
     return (
@@ -70,7 +71,7 @@ function Hero() {
                 
             </section>
             <TestimonialSlider/>
-            
+            <Strategies/>
         </div>
     );
 }
