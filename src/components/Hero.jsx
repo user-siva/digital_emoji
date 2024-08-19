@@ -44,20 +44,7 @@ function Hero() {
                     <div><b>30+</b> <br /> Global Awards</div>
                 </div>
             </section>
-            <div className="flex justify-center mt-8">
-                <button className="px-4 py-2 w-fit bg-blue-500 font-bold text-white rounded hover:bg-blue-700">
-                    Talk To Our Architect
-                </button>
-            </div>
-
-            <div className="flex flex-row justify-center gap-5 mt-10">
-                {["/images/dev.png", "/images/dev.png", "/images/dev.png", "/images/dev.png"].map((src, index) => (
-                    <div key={index} className="flex flex-col items-center">
-                        <ImageFrame src={src} index={index} hovered={hovered} setHovered={setHovered} />
-                        <p className="mt-2 font-bold">IT Leader</p>
-                    </div>
-                ))}
-            </div>
+            
             <section>
                 <figure className="flex flex-col items-center p-5">
                     <Image src="/main.png" height={1400} width={1200} className="m-5" alt="Digital Marketing" />
@@ -69,6 +56,25 @@ function Hero() {
                     </figcaption>
                 </figure>
                 
+            </section>
+            <section>
+            <div className="flex justify-center mt-8">
+                <button className="px-4 py-2 w-fit rounded hover:bg-[#5C1F5B]">
+                    <h1 className="font-bold mb-1 not-italic text-5xl">
+                        <span style={{ color: '#263B7E' }}>Talk to</span>
+                        <span style={{ color: '#5C1F5B' }}> our Architect</span>
+                    </h1>
+                </button>
+            </div>
+
+            <div className="flex flex-row justify-center gap-5 mt-10">
+                {["/images/dev.png", "/images/dev.png", "/images/dev.png", "/images/dev.png"].map((src, index) => (
+                    <div key={index} className="flex flex-col items-center">
+                        <ImageFrame src={src} index={index} hovered={hovered} setHovered={setHovered} />
+                        <p className="mt-2 font-bold">IT Leader</p>
+                    </div>
+                ))}
+            </div>
             </section>
             <TestimonialSlider/>
             <Strategies/>
