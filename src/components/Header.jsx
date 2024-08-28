@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Header = () => {
     return (
-        <header className="flex justify-between items-center p-4">
+        <header className="flex justify-between items-center p-12 pb-16">
             <div className="ml-4">
                 <Image
                     src="/logo.png"
@@ -17,19 +17,19 @@ const Header = () => {
             </div>
             <nav className="mr-6">
                 <ul className="flex list-none">
-                    <li className="ml-3">
+                    <li className="ml-8">
                         <Link href="/" className="no-underline text-nav-text hover:underline">Home</Link>
                     </li>
-                    <li className="ml-3">
+                    <li className="ml-8">
                         <Link href="/project" className="no-underline text-nav-text hover:underline">Projects</Link>
                     </li>
-                    <li className="ml-3">
+                    <li className="ml-8">
                         <Link href="about" className="no-underline text-nav-text hover:underline">About</Link>
                     </li>
-                    <li className="ml-3">
+                    <li className="ml-8">
                         <Link href="services" className="no-underline text-nav-text hover:underline">Services</Link>
                     </li>
-                    <li className="ml-3">
+                    <li className="ml-8">
                         <Link href="contact" className="no-underline text-nav-text hover:underline">Contact</Link>
                     </li>
                 </ul>

@@ -38,7 +38,7 @@ function Hero() {
                     <span style={{ color: '#263B7E' }}>Navigating Digital Challenges</span>
                     <span style={{ color: '#5C1F5B' }}> with Our Creativity</span>
                 </h1>
-                <div className="flex justify-center gap-10 mt-2">
+                <div className="flex justify-center gap-10 mt-10">
                     <div><b>100+</b> <br /> Happy Clients</div>
                     <div><b>90+</b> <br /> Projects Done</div>
                     <div><b>30+</b> <br /> Global Awards</div>

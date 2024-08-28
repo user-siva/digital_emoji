@@ -12,7 +12,7 @@ const Strategies = () => {
   return (
 
     <>
-    <h1 className="font-bold mb-1 not-italic text-5xl">
+    <h1 className="font-bold mb-6 not-italic text-5xl">
         <span style={{ color: '#263B7E' }}>Stra</span>
         <span style={{ color: '#5C1F5B' }}>tegies</span>
     </h1>

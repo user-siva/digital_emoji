@@ -6,8 +6,8 @@ import { Pagination,Autoplay } from 'swiper/modules';
 
 export default function TestimonialSlider() {
   return (
-    <div className="max-w-4xl mx-auto p-4">
-      <h1 className="font-bold mb-1 not-italic text-5xl">
+    <div className="max-w-4xl mx-auto p-6">
+      <h1 className="font-bold mb-6 not-italic text-5xl">
         <span style={{ color: '#263B7E' }}>Testi</span>
         <span style={{ color: '#5C1F5B' }}>monials</span>
       </h1>
