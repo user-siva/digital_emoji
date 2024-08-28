@@ -14,8 +14,8 @@ export default function EnquiryComponent() {
     return (
       <div id='general' className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-4">
         <h1 className="text-4xl font-bold mb-8 text-center">Let us know how we can help</h1>
-        <p className="text-lg font-bold mb-4 text-center">Got something in mind? We'd love to help. <br></br>What are you looking for?</p>
-        <p className="text-lg mb-4 text-center">Looking for UX/UI research or product branding?<br></br> Post your query now, and we'll get in touch with you soon!</p>
+        <p className="text-lg font-bold mb-4 text-center">Got something in mind? We&apos;d love to help. <br></br>What are you looking for?</p>
+        <p className="text-lg mb-4 text-center">Looking for UX/UI research or product branding?<br></br> Post your query now, and we&apos;ll get in touch with you soon!</p>
         
         <div className="enquiry mb-8">
           <form className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
