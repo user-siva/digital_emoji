@@ -27,7 +27,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -39,7 +39,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -51,7 +51,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -63,7 +63,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -75,7 +75,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -87,7 +87,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -99,7 +99,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -111,7 +111,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -123,7 +123,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -135,7 +135,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>
@@ -147,7 +147,7 @@ export default function TestimonialSlider() {
               alt="Client 1"
             />
             <h3 className="text-xl font-semibold mb-2">Jane Doe</h3>
-            <p className="text-gray-500 text-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p className="text-gray-500 text-center">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&quot;</p>
             <span className="text-yellow-500 mt-2">★★★★★</span>
           </div>
         </SwiperSlide>        
