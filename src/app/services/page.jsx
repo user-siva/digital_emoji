@@ -5,7 +5,7 @@ import { Slide, Fade } from "react-awesome-reveal";
 const serviceCategories = [
     {
         id: 1,
-        title: "Pixel Perfect Promotions",
+        title: "Pixel Perfect Promotions ",
         subtitle: "Digital Marketing",
         img: '/main.png',
         services: [
@@ -122,7 +122,7 @@ const serviceCategories = [
     },
     {
         id: 12,
-        title: "Animate AdSpace",
+        title: "Animate AdSpace ",
         subtitle: "2D and 3D Animation Advertisement",
         img: '/main.png',
         services: [
@@ -134,50 +134,52 @@ const serviceCategories = [
 
 const Services = () => {
     return (
-        
-    <div className="container mx-auto p-4 min-h-screen flex flex-col justify-center items-center">
-    <h1 className="text-center text-white font-bold text-3xl mb-14 mt-5 sm:mt-0">
-        <span style={{ color: '#263B7E' }}>Our</span>
-        <span style={{ color: '#5C1F5B' }}> Services</span>
+        <div className="container mx-auto px-4 py-16 min-h-screen flex flex-col justify-center items-center bg-gray-100">
+            {/* Heading */}
+            <h1 className="text-center font-extrabold text-4xl mb-16">
+                <span className="text-[#263B7E]">Our</span>{" "}
+                <span className="text-[#5C1F5B]">Services</span>
+            </h1>
 
-    </h1>
+            {/* Cards Section */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 w-full px-6">
+                {serviceCategories.map(({ id, title, img, subtitle, services }) => {
+                    return (
+                        <div
+                            key={id}
+                            className="bg-white shadow-lg rounded-lg overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+                        >
+                            {/* Card Content */}
+                            <div className="p-8">
+                                {/* Image */}
+                                <img
+                                    className="rounded-lg h-40 w-full object-cover mb-5"
+                                    src={img}
+                                    alt={title}
+                                />
 
-    {/* Cards section */}
-    
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center">
-        {serviceCategories.map(({ id, title, img, subtitle, services }) => {
-            return (
-                <div
-                    key={id}
-                    className="text-white shadow-md rounded-lg overflow-hidden relative group transform transition-transform duration-300 hover:scale-105"
-                >
-                    <div className="max-w-sm bg-white h-[32rem] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                        <div className="p-5">
-                            <img className="rounded-t-lg" src={img} alt={title} />
-
-                            <a href="#" className="mb-9">
-                                <h5 className="text-2xl font-bold tracking-tight mt-3 text-gray-900 dark:text-white">
+                                {/* Title and Subtitle */}
+                                <h5 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-[#263B7E]">
                                     {title}
                                 </h5>
-                                <h6 className="font-bold mb-3">{subtitle}</h6>
-                            </a>
-                            <ul className="list-disc list-inside mb-3 text-gray-700 dark:text-gray-400">
-                                {services.map((service, index) => (
-                                    <li key={index}>{service}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            );
-        })}
-    </div>
-</div>
+                                <h6 className="font-semibold text-[#5C1F5B] mb-4">
+                                    {subtitle}
+                                </h6>
 
+                                {/* Services List */}
+                                <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                                    {services.map((service, index) => (
+                                        <li key={index}>{service}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    );
+                })}
+            </div>
+        </div>
     );
 };
-
-
 
 
 export default Services;
