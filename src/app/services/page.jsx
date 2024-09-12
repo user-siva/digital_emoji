@@ -134,11 +134,11 @@ const serviceCategories = [
 
 const Services = () => {
     return (
-        <div className="container mx-auto px-4 py-16 min-h-screen flex flex-col justify-center items-center">
+        <div className="container mx-auto px-4 py-16 min-h-screen flex flex-col justify-center items-center bg-gray-100">
             {/* Heading */}
-            <h1 className="text-center font-bold text-3xl mb-16">
-                <span style={{ color: '#263B7E' }}>Our</span>{" "}
-                <span style={{ color: '#5C1F5B' }}>Services</span>
+            <h1 className="text-center font-extrabold text-4xl mb-16">
+                <span className="text-[#263B7E]">Our</span>{" "}
+                <span className="text-[#5C1F5B]">Services</span>
             </h1>
 
             {/* Cards Section */}
@@ -147,7 +147,7 @@ const Services = () => {
                     return (
                         <div
                             key={id}
-                            className="bg-white shadow-md rounded-lg overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+                            className="bg-white shadow-lg rounded-lg overflow-hidden group transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
                         >
                             {/* Card Content */}
                             <div className="p-8">
@@ -159,10 +159,12 @@ const Services = () => {
                                 />
 
                                 {/* Title and Subtitle */}
-                                <h5 className="text-2xl font-bold text-gray-900 mb-2">
+                                <h5 className="text-2xl font-bold text-gray-900 mb-2 group-hover:text-[#263B7E]">
                                     {title}
                                 </h5>
-                                <h6 className="font-bold mb-4">{subtitle}</h6>
+                                <h6 className="font-semibold text-[#5C1F5B] mb-4">
+                                    {subtitle}
+                                </h6>
 
                                 {/* Services List */}
                                 <ul className="list-disc pl-5 space-y-2 text-gray-700">
@@ -178,5 +180,6 @@ const Services = () => {
         </div>
     );
 };
+
 
 export default Services;
