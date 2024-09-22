@@ -1,13 +1,4 @@
 export default function Gallery() {
-    const images = [
-        { src: '/photo1.jpeg', width: 'w-96', height: 'h-64' }, // Example sizes
-        { src: '/photo1.jpeg', width: 'w-64', height: 'h-96' },
-        { src: '/photo1.jpeg', width: 'w-80', height: 'h-80' },
-        { src: '/photo1.jpeg', width: 'w-72', height: 'h-72' },
-        { src: '/photo1.jpeg', width: 'w-64', height: 'h-96' },
-        { src: '/photo1.jpeg', width: 'w-96', height: 'h-64' },
-        // Add more images or fetch from an external source
-    ];
 
     return (
         <>
