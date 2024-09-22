@@ -59,7 +59,7 @@ function Hero() {
             </section>
             <section>
             <div className="flex justify-center mt-8">
-                <button className="px-4 py-2 w-fit rounded hover:bg-[#5C1F5B]">
+                <button className="px-4 py-2 w-fit rounded">
                     <h1 className="font-bold mb-1 not-italic text-5xl">
                         <span style={{ color: '#263B7E' }}>Talk to</span>
                         <span style={{ color: '#5C1F5B' }}> our Architect</span>
